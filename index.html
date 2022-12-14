@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manipulacion del DOM básico - curso básico de Js</title>
+</head>
+<body>
+	<div>
+		<h1 class ="hola">Manipulacion del DOM básico</h1>
+
+		<p>Esto es un parrafo</p>
+		<p class="parrafito">Esto es un parrafo con clase</p>
+		<p id="pid">Esto es un parrafo con id</p>
+	
+		<input type="text">
+	</div>
+	
+	<div>
+		<h2>Eventos con onlcick</h2>
+
+		<input id="onCalculoUno" placeholder="Escribe un número">
+		<input id="onCalculoDos" placeholder="Escribe un número">
+		<button id="onClacular" onclick="btnListen()">Calcular</button>
+	
+		<p id="onResultado"></p>
+	</div>
+	
+	<div>
+		<h2>Eventos con addEventListener</h2>
+
+		<input id="addCalculoUno" placeholder="Escribe un número">
+		<input id="addCalculoDos" placeholder="Escribe un número">
+		<button id="addCalcular">Calcular</button>
+	
+		<p id="addResultado"></p>
+	</div>
+
+	<div>
+		<h2>Eventos con addEventListener con formulario</h2>
+
+	<form id="form">
+		<input id="addCalculoTres" placeholder="Escribe un número">
+		<input id="addCalculoCuatro" placeholder="Escribe un número">
+		<button type="button" id="addCalcularDos">Calcular</button>
+	</form>	
+
+	<p id="addResultadoDos"></p>
+	</div>
+
+	<script src="./js/formulario.js"></script>
+	<script src="./js/addEvent.js"></script>
+	<script src="./js/script.js"></script>
+	<script src="./js/eventos.js"></script>
+</body>
+</html>
